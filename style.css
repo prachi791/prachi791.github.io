@@ -1,0 +1,132 @@
+/* ---------- Global Style ---------- */
+body {
+    background: #0d0d0d;
+    color: #e6e6e6;
+    font-family: "Segoe UI", Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* ---------- Navigation Bar ---------- */
+.nav {
+    background: #1a1a1a;
+    padding: 15px 25px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    border-bottom: 1px solid #222;
+}
+
+.nav a {
+    color: #cfcfcf;
+    text-decoration: none;
+    margin: 0 18px;
+    padding: 8px 15px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.nav a:hover {
+    color: #00eaff;
+    text-shadow: 0 0 8px #00eaff;
+}
+
+.nav .active {
+    color: #00eaff;
+    border-bottom: 2px solid #00eaff;
+}
+
+/* ---------- Page Titles ---------- */
+.title {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 40px;
+    letter-spacing: 1px;
+    color: #00eaff;
+    text-shadow: 0 0 10px #00eaff;
+}
+
+/* ---------- Cards ---------- */
+.card {
+    background: #141414;
+    padding: 25px;
+    margin: 30px auto;
+    width: 80%;
+    border-radius: 12px;
+    border: 1px solid #222;
+    box-shadow: 0 0 15px rgba(0, 255, 255, 0.1);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.25);
+}
+
+.card h2 {
+    color: #00eaff;
+    margin-bottom: 10px;
+}
+
+/* ---------- Links ---------- */
+a.link {
+    color: #00eaff;
+    text-decoration: none;
+}
+
+a.link:hover {
+    text-shadow: 0 0 8px #00eaff;
+}
+
+/* ---------- Button ---------- */
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 15px;
+    background: #00eaff22;
+    border: 1px solid #00eaff;
+    border-radius: 8px;
+    color: #00eaff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #00eaff;
+    color: #000;
+    box-shadow: 0 0 15px #00eaff;
+}
+
+/* ---------- Lists ---------- */
+ul {
+    margin-left: 20px;
+}
+
+li {
+    margin: 5px 0;
+}
+
+/* ---------- Footer ---------- */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #111;
+    border-top: 1px solid #222;
+    margin-top: 40px;
+}
+
+footer a {
+    color: #00eaff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-shadow: 0 0 8px #00eaff;
+}
+
+/* ---------- Embedded Forms ---------- */
+iframe {
+    border: none;
+    border-radius: 8px;
+}
